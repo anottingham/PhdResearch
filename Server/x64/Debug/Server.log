@@ -1,0 +1,138 @@
+﻿Build started 2015/07/07 12:59:22 AM.
+     1>Project "C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\Server\Server.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\Server.unsuccessfulbuild".
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file src\GpfVm.cu...
+         cmd.exe /C "C:\Users\Alastair\AppData\Local\Temp\tmpb7eed88f236941669cb571b0c1562ba3.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_50,code=\"sm_50,compute_50\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3\Server\inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"  -G -lineinfo  --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g  -use_fast_math -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -DZMQ_STATIC -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MDd  " -o x64\Debug\GpfVm.cu.obj "C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\Server\src\GpfVm.cu"
+         
+         C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\Server>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_50,code=\"sm_50,compute_50\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3\Server\inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"  -G -lineinfo  --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g  -use_fast_math -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -DZMQ_STATIC -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MDd  " -o x64\Debug\GpfVm.cu.obj "C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\Server\src\GpfVm.cu" 
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\tinythread.h(654): warning : extra ";" ignored
+         
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\tinythread.h(654): warning : extra ";" ignored
+         
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\tinythread.h(654): warning : extra ";" ignored
+         
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\tinythread.h(654): warning : extra ";" ignored
+         
+         GpfVm.cu
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(153): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(162): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(170): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:/Users/Alastair/Documents/PhD Thesis/CFVM/CaptureFoundry3 - broken/Server/src/GpfVm.cu(753): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:/Users/Alastair/Documents/PhD Thesis/CFVM/CaptureFoundry3 - broken/Server/src/GpfVm.cu(755): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:/Users/Alastair/Documents/PhD Thesis/CFVM/CaptureFoundry3 - broken/Server/src/GpfVm.cu(841): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:/Users/Alastair/Documents/PhD Thesis/CFVM/CaptureFoundry3 - broken/Server/src/GpfVm.cu(842): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3\Server\inc" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /Zi /nologo /W3 /WX- /Ox /D WIN64 /D _DEBUG /D _CONSOLE /D _MBCS /D ZMQ_STATIC /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src\CudaBuffer.cpp src\Distiller.cpp src\FileBuffer.cpp src\GpfServer.cpp src\IndexBuffer.cpp src\IndexReader.cpp src\OutputBuffer.cpp src\PcapWriter.cpp src\Process.cpp src\Processor.cpp src\ProgressBar.cpp src\tinythread.cpp
+         tinythread.cpp
+         ProgressBar.cpp
+     1>src\ProgressBar.cpp(3): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\shared\sdkddkver.h(196) : see previous definition of '_WIN32_WINNT'
+     1>src\ProgressBar.cpp(81): warning C4129: '%' : unrecognized character escape sequence
+     1>src\ProgressBar.cpp(119): warning C4129: '%' : unrecognized character escape sequence
+         Processor.cpp
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(153): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(162): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(170): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\Processor.cpp(101): warning C4018: '<' : signed/unsigned mismatch
+         Process.cpp
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(153): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(162): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(170): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\ProcessTimer.h(33): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>src\Process.cpp(72): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>src\Process.cpp(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>src\Process.cpp(93): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>src\Process.cpp(21): warning C4101: 'pidx_file' : unreferenced local variable
+     1>src\Process.cpp(22): warning C4101: 'tidx_file' : unreferenced local variable
+         PcapWriter.cpp
+         OutputBuffer.cpp
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(153): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(162): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(170): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\OutputBuffer.cpp(164): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>src\OutputBuffer.cpp(176): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>src\OutputBuffer.cpp(181): warning C4101: 'type' : unreferenced local variable
+         IndexReader.cpp
+         IndexBuffer.cpp
+         GpfServer.cpp
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(153): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(162): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(170): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\zhelpers.hpp(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\zhelpers.hpp(207): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>src\GpfServer.cpp(29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>src\GpfServer.cpp(67): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>src\GpfServer.cpp(68): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         FileBuffer.cpp
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\zhelpers.hpp(107): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\zhelpers.hpp(207): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>src\FileBuffer.cpp(79): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>src\FileBuffer.cpp(213): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>src\FileBuffer.cpp(305): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>src\FileBuffer.cpp(308): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>src\FileBuffer.cpp(401): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+         Distiller.cpp
+         CudaBuffer.cpp
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(153): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(162): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\alastair\documents\phd thesis\cfvm\capturefoundry3 - broken\server\src\VmCommon.h(170): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\x64\Debug\Server.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3\Server\lib" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\lib\x64" "libzmq-v110-mt-gd-4_0_4.lib" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\x64\Debug\Server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\x64\Debug\Server.lib" /MACHINE:X64 x64\Debug\GpfViewUtil.cu.obj
+         x64\Debug\GpfVm.cu.obj
+         x64\Debug\CudaBuffer.obj
+         x64\Debug\Distiller.obj
+         x64\Debug\FileBuffer.obj
+         x64\Debug\GpfServer.obj
+         x64\Debug\IndexBuffer.obj
+         x64\Debug\IndexReader.obj
+         x64\Debug\OutputBuffer.obj
+         x64\Debug\PcapWriter.obj
+         x64\Debug\Process.obj
+         x64\Debug\Processor.obj
+         x64\Debug\ProgressBar.obj
+         x64\Debug\tinythread.obj
+         Server.vcxproj -> C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\x64\Debug\Server.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart32_60.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart64_60.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\Server.unsuccessfulbuild".
+         Touching "x64\Debug\Server.lastbuildstate".
+     1>Done Building Project "C:\Users\Alastair\Documents\PhD Thesis\CFVM\CaptureFoundry3 - broken\Server\Server.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:26.95
