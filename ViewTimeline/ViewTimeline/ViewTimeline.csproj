@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2938AE83-1712-472D-84BE-5A04329A06B0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ViewTimeline</RootNamespace>
+    <AssemblyName>ViewTimeline</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NetMQ">
+      <HintPath>..\..\packages\NetMQ.3.3.0.10\lib\net40\NetMQ.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>Dependencies\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Compatibility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>Dependencies\OpenTK.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>Dependencies\OpenTK.GLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFont">
+      <HintPath>Dependencies\QuickFont.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CanvasList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CanvasList.Designer.cs">
+      <DependentUpon>CanvasList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CanvasListItem.Designer.cs">
+      <DependentUpon>CanvasListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasRenderProperties .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CanvasRenderProperties .Designer.cs">
+      <DependentUpon>CanvasRenderProperties .cs</DependentUpon>
+    </Compile>
+    <Compile Include="FieldSet\FieldSetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FieldSet\FieldSetControl.Designer.cs">
+      <DependentUpon>FieldSetControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FieldSet\FieldSetData.cs" />
+    <Compile Include="FieldSet\FieldSetViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldSet\FieldSetViewer.Designer.cs">
+      <DependentUpon>FieldSetViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilterCountCache.cs" />
+    <Compile Include="DistillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistillForm.Designer.cs">
+      <DependentUpon>DistillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graphs\CanvasCache.cs" />
+    <Compile Include="Graphs\CanvasCollection.cs" />
+    <Compile Include="Graphs\CanvasData.cs" />
+    <Compile Include="Graphs\CanvasManager.cs" />
+    <Compile Include="Graphs\CaptureGraph.cs" />
+    <Compile Include="Graphs\GraphBackground.cs" />
+    <Compile Include="Graphs\GraphYAxis.cs" />
+    <Compile Include="Graphs\GraphCanvas.cs" />
+    <Compile Include="Graphs\GraphDefinitions.cs" />
+    <Compile Include="Graphs\GraphXAxis.cs" />
+    <Compile Include="GLControls\GraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GLControls\GraphControl.Designer.cs">
+      <DependentUpon>GraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileManager.cs" />
+    <Compile Include="GLControls\ShaderProgram.cs" />
+    <Compile Include="GLControls\SimpleShader2D.cs" />
+    <Compile Include="GLControls\TextureBuffer.cs" />
+    <Compile Include="GLControls\VertexBuffer.cs" />
+    <Compile Include="OpenCaptureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenCaptureForm.Designer.cs">
+      <DependentUpon>OpenCaptureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PacketCollection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtocolStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProtocolStatistics.Designer.cs">
+      <DependentUpon>ProtocolStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeFrameTree.cs" />
+    <Compile Include="ViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm.Designer.cs">
+      <DependentUpon>ViewForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CanvasList.resx">
+      <DependentUpon>CanvasList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CanvasListItem.resx">
+      <DependentUpon>CanvasListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CanvasRenderProperties .resx">
+      <DependentUpon>CanvasRenderProperties .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistillForm.resx">
+      <DependentUpon>DistillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FieldSet\FieldSetControl.resx">
+      <DependentUpon>FieldSetControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FieldSet\FieldSetViewer.resx">
+      <DependentUpon>FieldSetViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GLControls\GraphControl.resx">
+      <DependentUpon>GraphControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenCaptureForm.resx">
+      <DependentUpon>OpenCaptureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ProtocolStatistics.resx">
+      <DependentUpon>ProtocolStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm.resx">
+      <DependentUpon>ViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GLControls\simple2d.f.glsl" />
+    <None Include="GLControls\simple2d.v.glsl" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="simple2d.f.glsl" />
+    <None Include="simple2d.v.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Settings.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

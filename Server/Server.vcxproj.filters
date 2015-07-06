@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="IO">
+      <UniqueIdentifier>{09dbbe99-8c79-48bf-947d-1add46c77aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{513a10fa-fe93-4b92-be17-0c84d2c0efb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VM">
+      <UniqueIdentifier>{41313493-14a6-429d-a58e-d01c56b94460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\Header">
+      <UniqueIdentifier>{0f83e83f-beb0-4a56-8ba2-d297e66b746a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\Source">
+      <UniqueIdentifier>{6dcf8ad1-ec28-4575-a8d5-40e9b6fa7410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VM\Header">
+      <UniqueIdentifier>{d4130bbd-67b5-4619-a60c-27e3f9ba6003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VM\Source">
+      <UniqueIdentifier>{b2023bf3-c9aa-4017-a82c-5141082e36f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Header">
+      <UniqueIdentifier>{d755164c-54dd-49ae-8251-c13dc100f4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Source">
+      <UniqueIdentifier>{f8a667b1-4f30-4d3a-9885-6c8586ec5691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{54a00944-ec90-41a9-b26a-1ac7ee3908f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Header">
+      <UniqueIdentifier>{aff9734f-3e1a-4191-b434-ad21c7020985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source">
+      <UniqueIdentifier>{b12ee300-249b-447e-b85e-8e2bac6ebea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{c6146d68-ceef-492d-9ea8-c432f52cbbcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Header">
+      <UniqueIdentifier>{c16aac2f-6f2d-4cd1-904c-08cd9961f7d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Source">
+      <UniqueIdentifier>{2d2c072a-8cfa-4902-b095-055819cd97f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\FileBuffer.cpp">
+      <Filter>IO\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GpfServer.cpp">
+      <Filter>Server\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IndexBuffer.cpp">
+      <Filter>IO\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputBuffer.cpp">
+      <Filter>IO\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Processor.cpp">
+      <Filter>Server\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CudaBuffer.cpp">
+      <Filter>VM\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Process.cpp">
+      <Filter>Common\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinythread.cpp">
+      <Filter>Common\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ProgressBar.cpp">
+      <Filter>Server\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Distiller.cpp">
+      <Filter>View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IndexReader.cpp">
+      <Filter>View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PcapWriter.cpp">
+      <Filter>View\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\FileBuffer.h">
+      <Filter>IO\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GpfServer.h">
+      <Filter>Server\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IndexBuffer.h">
+      <Filter>IO\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OutputBuffer.h">
+      <Filter>IO\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Processor.h">
+      <Filter>Server\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VmCommon.h">
+      <Filter>VM\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CudaBuffer.h">
+      <Filter>VM\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinythread.h">
+      <Filter>Common\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common.h">
+      <Filter>Common\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ProgressBar.h">
+      <Filter>Server\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ProcessOptions.h">
+      <Filter>Server\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GpfViewUtil.cuh">
+      <Filter>View\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Distiller.h">
+      <Filter>View\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IndexReader.h">
+      <Filter>View\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PcapWriter.h">
+      <Filter>View\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ProcessTimer.h">
+      <Filter>Server\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\GpfVm.cu">
+      <Filter>VM\Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\GpfViewUtil.cu">
+      <Filter>View\Source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\GpfVm.cuh">
+      <Filter>VM\Header</Filter>
+    </None>
+  </ItemGroup>
+</Project>
