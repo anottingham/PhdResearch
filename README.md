@@ -40,11 +40,12 @@ All additional files are hosted on Dropbox. Click the file name to download.
 <li><b><a href=https://www.dropbox.com/s/xv1sfup1rz6pjxm/Source.rar?dl=0>Source.rar</a></b> contains the source files for the solution (as an alternative to Git). </li>
 <li><b><a href=https://www.dropbox.com/s/i2dt5fc16ghijew/Binary.rar?dl=0>Binary.rar</a></b> contains compiled debug and release binaries, with all required libraries.</li>
 <li><b><a href=https://www.dropbox.com/s/z1uzib8c8k4exzt/Programs.rar?dl=0>Programs.rar</a></b> contains all programs used during testing (source and compiled)</li>
-<li>Output Project files for Program Set A (Filter Only) for Captures A, B and C. Projects can be viewed by selecting <b>Load Existing Project</b> from the main Client form (requires Server Connection).  
-<ul><li><b><a href=https://www.dropbox.com/s/x5ughqbyqgf6xp5/Capture%20A.rar?dl=0>Capture A.rar</a></b> (19 MB)</li>
+</ul>
+Output Project files creating using Program Set A (Filter Only) and Captures A, B and C are also available. The contained projects can be viewed by selecting <b>Load Existing Project</b> from the main Client form (requires Server Connection).  
+<ul>
+<li><b><a href=https://www.dropbox.com/s/x5ughqbyqgf6xp5/Capture%20A.rar?dl=0>Capture A.rar</a></b> (19 MB)</li>
 <li><b><a href=https://www.dropbox.com/s/ghaw72bn61z6pqd/Capture%20B.rar?dl=0>Capture B.rar</a></b> (276 MB)</li>
 <li><b><a href=https://www.dropbox.com/s/1cwekopovdykwas/Capture%20C.rar?dl=0>Capture C.rar</a></b> (329 MB)</li>
-</ul>
 </ul>
 </br>
 
