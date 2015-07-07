@@ -150,16 +150,16 @@ int main (int argc, char* argv[])
 	{
 		if (argv[1][0] == '?')
 		{
-			printf("Usage (Server Mode):\n\t%s (<portNumber>)\n",argv[0]);
-			printf("Usage (Executable Mode):\n\t%s <captureFile> <destinationFolder> (-s <streamCount> | -b <bufferSize>| -i <indexFile> <timeFile> | -f <filterProgram> | -g <gpuIndex> | -a # <file1> ... | -t <outfile>)\n\n",argv[0]);
+			printf("\nUsage (Server Mode):\n\t%s (<portNumber>)\n",argv[0]);
+			printf("\nUsage (Executable Mode):\n\t%s <captureFile> <destinationFolder> (-s <streamCount> | -b <bufferSize>| -i <indexFile> <timeFile> |\n\t -f <filterProgram> | -g <gpuIndex> | -a # <file1> ... | -t <outfile>)\n\n",argv[0]);
 			printf("-s\t: The number of streams to use. Default is 8.\n");
 			printf("-b\t: The buffer size in MB. Three buffers are allocated per stream. Default size is 32.\n");
 			printf("-i\t: Enables Indexing, specifying the index and time file names.\n");
-			printf("-f\t: Specifies the compiled gpf program. Extension '.gpf_c'.\n");
+			printf("-f\t: Specifies the compiled gpf program. Extension `.gpf_c'.\n");
 			printf("-g\t: Specifies the gpu to use. Default is 0.\n");
-			printf("-a\t: Additional copies of the main capture file. Used to increase read speed.\n\tRequires an indication of the number of additional files (1+) and the filename of each.\ne.g. c:\a.cap -a 3 d:\a.cap e:\a.cap f:\a.cap ...\n\n");
-			printf("-t\t: Perform timing, appending results to <outfile>.");
-			
+			printf("-a\t: Additional copies of the main capture file. Used to increase read speed.\n\t  Requires an indication of the number of additional files (1+) and the filename of each.\n\t  e.g. c:\\a.cap -a 3 d:\\a.cap e:\\a.cap f:\\a.cap ...\n\n");
+			printf("-t\t: Perform timing, appending results to <outfile>.\n\n");
+			exit(0);			
 		}
 		else
 		{
