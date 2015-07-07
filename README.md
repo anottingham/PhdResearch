@@ -39,19 +39,23 @@ These projects are organised into separate folders in the solution.
 
 #####Inputs
 
-<li> Pcap Capture File (*.cap | *.pcap) <i> - Required</i></li>
+<li> Pcap Capture File (\*.cap | \*.pcap) <i> - Required</i></li>
 
-<li> GPF+ high-level program (*.gpf) <i> - Optional</i></li>
+<li> GPF+ high-level program (\*.gpf) <i> - Optional</i></li>
 
 </br>
 
 #####Outputs
 
-<li> Project File (*.gpf_project) </li>
-<li> Packet Index File (*.pidx) </li>
-<li> Time Index File (*.tidx) </li>
-<li> Filter Files (*.gpf_filter) </li>
-<li> Field Files (*gpf_field) </li>
+<li> Project File (\*.gpf_project) </li>
+
+<li> Packet Index File (\*.pidx) </li>
+
+<li> Time Index File (\*.tidx) </li>
+
+<li> Filter Files (\*.gpf_filter) </li>
+
+<li> Field Files (\*gpf_field) </li>
 
 Project files store the location of all output files relevant to a particular program.
 They can be used to quickly open existing projects.
