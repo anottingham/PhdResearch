@@ -16,17 +16,20 @@ The Visual Studio 2012 Solution includes the following projects:
 
 <li><b>Server</b> - The CUDA / C++ Classification Server. </li>
 
-<li><b>ViewTimeline</b> - The .NET post-processing functions.</li></ul>
+<li><b>ViewTimeline</b> - The .NET post-processing functions.</li>
+</ul>
 
 These projects are organised into separate folders in the solution.
 
 </br>
 
 ####Executables:
+
 <ul>
 <li><b>Client.exe</b> - Encapsulates .NET functions. Required for all GUI functions.</li>
 
-<li><b>Server.exe</b> - Encapsulates C++ functions. Uses CUDA 6.5 Runtime API.</li></ul>
+<li><b>Server.exe</b> - Encapsulates C++ functions. Uses CUDA 6.5 Runtime API.</li>
+</ul>
 
 </br>
 
@@ -47,31 +50,43 @@ All additional files are hosted on Dropbox. Click the file name to download.
 
 ####Minimum Requirements
 
-<ul><li> x64 CPU (x86 is not currently supported)</li>
+<ul>
 
-<li> Compute Capability 3.5+ Nvidia GPU (currently compiles for 3.5 and 5.0 explicitly) </li> </ul>
+<li> x64 CPU (x86 is not currently supported)</li>
+
+<li> Compute Capability 3.5+ Nvidia GPU (currently compiles for 3.5 and 5.0 explicitly) </li> 
+
+</ul>
 
 </br>
 
 ####Inputs
 
-<ul><li> Pcap Capture File (\*.cap | \*.pcap) <i> - Required</i></li>
+<ul>
 
-<li> GPF+ high-level program (\*.gpf) <i> - Optional</i></li></ul>
+<li> Pcap Capture File (*.cap | *.pcap) <i> - Required</i></li>
+
+<li> GPF+ high-level program (*.gpf) <i> - Optional</i></li>
+
+</ul>
 
 </br>
 
 ####Outputs
 
-<ul><li> Project File (\*.gpf_project) </li>
+<ul>
 
-<li> Packet Index File (\*.pidx) </li>
+<li> Project File (*.gpf_project) </li>
 
-<li> Time Index File (\*.tidx) </li>
+<li> Packet Index File (*.pidx) </li>
 
-<li> Filter Files (\*.gpf_filter) </li>
+<li> Time Index File (*.tidx) </li>
 
-<li> Field Files (\*.gpf_field) </li></ul>
+<li> Filter Files (*.gpf_filter) </li>
+
+<li> Field Files (*.gpf_field) </li>
+
+</ul>
 
 Project files store the location of all output files relevant to a particular program.
 They can be used to quickly open existing projects.
@@ -109,7 +124,9 @@ The command line uses pre-compiled GPF+ programs for filtering. Programs can be 
 </br>
 
 ####Visualiser Controls
+
 <ul>
+
 <li><b>Double Click</b> zooms in on highlighted region of the capture.</li>
 
 <li><b>Backspace</b> zooms out.</li>
@@ -117,4 +134,5 @@ The command line uses pre-compiled GPF+ programs for filtering. Programs can be 
 <li><b>M</b> marks the the highlighted region for use in distillation.</li>
 
 <li><b>Esc</b> clears all marks from the canvas.</li>
+
 </ul>
