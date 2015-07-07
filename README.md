@@ -55,7 +55,7 @@ These projects are organised into separate folders in the solution.
 
 <li> Filter Files (\*.gpf_filter) </li>
 
-<li> Field Files (\*gpf_field) </li>
+<li> Field Files (\*.gpf_field) </li>
 
 Project files store the location of all output files relevant to a particular program.
 They can be used to quickly open existing projects.
@@ -65,7 +65,18 @@ They can be used to quickly open existing projects.
 
 #####Using the Software
 
-The system requires both Client and Server executables to be running during both classification and post-processing.
+The system requires both Client and Server executables to be running during classification and post-processing.
+
+<ol>
+<li>Click <b>Connect</b> in the client to connect to the server process. </li>
+<li>Click <b>Create New Project</b> to open the Processing Options form. 
+<ol><li> Add / Drag and Drop one or more identical captures (from different drives) into Source List. </li>
+<li> Add / Drag and Drop a GPF+ high-level program into Filter Program, or disable filtering.</li>
+<li> Set buffer size and stream count (memory utilisation is roughly the product of these values)</li>
+</ol>
+</li></ol>
+
+(2) 
 
 
 
