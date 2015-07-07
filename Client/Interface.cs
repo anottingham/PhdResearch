@@ -168,6 +168,11 @@ namespace ZmqInterface
             else if (tmp.EndsWith(":\\")) tbProjectFolder.Text = tmp;
             else tbProjectFolder.Text = tmp + "\\";
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            lbSources.Items.Clear();
+        }
     }
 
     [Serializable]
