@@ -39,7 +39,7 @@ All additional files are hosted on Dropbox. Click the file name to download.
 <ul>
 <li><b><a href=https://www.dropbox.com/s/xv1sfup1rz6pjxm/Source.rar?dl=0>Source.rar</a></b> (17 MB) contains the source files for the solution (as an alternative to Git). </li>
 <li><b><a href=https://www.dropbox.com/s/i2dt5fc16ghijew/Binary.rar?dl=0>Binary.rar</a></b> (3 MB) contains compiled debug and release binaries, with all required libraries.</li>
-<li><b><a href=https://www.dropbox.com/s/z1uzib8c8k4exzt/Programs.rar?dl=0>Programs.rar</a></b> (12 KB) contains all programs used during testing (source and compiled)</li>
+<li><b><a href=https://www.dropbox.com/s/z1uzib8c8k4exzt/Programs.rar?dl=0>Programs.rar</a></b> (12 KB) contains all GPF+ programs used during testing (source and compiled)</li>
 </ul>
 Output Project files creating using Program Set A (Filter Only) and Captures A, B and C are also available. The contained projects can be viewed by selecting <b>Load Existing Project</b> from the main <b>Client</b> form (requires Server Connection).  
 <ul>
