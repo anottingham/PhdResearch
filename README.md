@@ -37,11 +37,11 @@ These projects are organised into separate folders in the solution.
 
 All additional files are hosted on Dropbox. Click the file name to download.
 <ul>
-<li><b><a href=https://www.dropbox.com/s/xv1sfup1rz6pjxm/Source.rar?dl=0>Source.rar</a></b> contains the source files for the solution (as an alternative to Git). </li>
-<li><b><a href=https://www.dropbox.com/s/i2dt5fc16ghijew/Binary.rar?dl=0>Binary.rar</a></b> contains compiled debug and release binaries, with all required libraries.</li>
-<li><b><a href=https://www.dropbox.com/s/z1uzib8c8k4exzt/Programs.rar?dl=0>Programs.rar</a></b> contains all programs used during testing (source and compiled)</li>
+<li><b><a href=https://www.dropbox.com/s/xv1sfup1rz6pjxm/Source.rar?dl=0>Source.rar</a></b> (17 MB) contains the source files for the solution (as an alternative to Git). </li>
+<li><b><a href=https://www.dropbox.com/s/i2dt5fc16ghijew/Binary.rar?dl=0>Binary.rar</a></b> (3 MB) contains compiled debug and release binaries, with all required libraries.</li>
+<li><b><a href=https://www.dropbox.com/s/z1uzib8c8k4exzt/Programs.rar?dl=0>Programs.rar</a></b> (12 KB) contains all programs used during testing (source and compiled)</li>
 </ul>
-Output Project files creating using Program Set A (Filter Only) and Captures A, B and C are also available. The contained projects can be viewed by selecting <b>Load Existing Project</b> from the main Client form (requires Server Connection).  
+Output Project files creating using Program Set A (Filter Only) and Captures A, B and C are also available. The contained projects can be viewed by selecting <b>Load Existing Project</b> from the main <b>Client</b> form (requires Server Connection).  
 <ul>
 <li><b><a href=https://www.dropbox.com/s/x5ughqbyqgf6xp5/Capture%20A.rar?dl=0>Capture A.rar</a></b> (19 MB)</li>
 <li><b><a href=https://www.dropbox.com/s/ghaw72bn61z6pqd/Capture%20B.rar?dl=0>Capture B.rar</a></b> (276 MB)</li>
@@ -114,6 +114,8 @@ By default, both applications connect on port 5555. The Client port can be confi
 
 Once the process completes, the Client will automatically launch the post-processor form.
 
+Once a project has been created, it can be reopened by selecting <b>Load Existing Project</b> from the main <b>Client</b> form (requires Server Connection).
+
 </br>
 
 ####Running Standalone Server from the Command Line
@@ -124,7 +126,11 @@ The command line uses pre-compiled GPF+ programs for filtering. Programs can be 
 
 </br>
 
-####Visualiser Controls
+####Using the Post-processors
+
+The Visualiser requires a connection with the Server in order to perform filter counts. The active GPU can be changed from the GPU configuration menu.
+
+#####Visualiser Keyboard Shortcuts:
 
 <ul>
 
@@ -137,3 +143,30 @@ The command line uses pre-compiled GPF+ programs for filtering. Programs can be 
 <li><b>Esc</b> clears all marks from the canvas.</li>
 
 </ul>
+
+#####Graph Menu Functions:
+
+<ul>
+
+<li><b>Save Image</b> stores a PNG image of the current graph.</li>
+<li><b>Distill Capture From Selection</b> creates a new capture from marked regions, optionally applying a filter.</li>
+<li><b>Show Protocol Statistics</b> shows the number of packets in the capture matching each filter.</li>
+<li><b>View Field Distribution</b> shows the top values of specific fields.</li>
+
+</ul>
+
+#####Graph Manipulation
+
+The graph display can be manipulated using the filter list in the bottom left of the window.
+
+<ul>
+
+<li>Clicking the coloured square allows the selection of a new graph colour.</li>
+<li>Clicking the graph's name box shows or hides the graph.</li>
+<li>Clicking the gear symbol opens the graphs render options. This form can adjust the graph type and scale function.</li>
+<li>Clicking the arrows changes the graph draw order.</li>
+<li>Scrolling with the mouse while hovering over the list will scroll the list.</li>
+
+</ul>
+
+
